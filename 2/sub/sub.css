@@ -1,0 +1,419 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+	color: rgb(55, 54, 51);
+}
+html{
+	font-size: 20px;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+
+body{
+	background-color: rgb(231,227,220);
+}
+
+header{
+    width: 80%;
+    height: 8vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+header .logo{
+	font-size: 4.4rem;
+}
+header .logo a{
+	color: rgb(55, 54, 51);
+	font-weight: 500;
+}
+header ul{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+    
+}
+header ul li{
+	margin: 0 1vw;
+}
+header ul li a{
+	font-size: 3.4rem;
+	color: rgb(55, 54, 51);
+}
+
+.contents{
+	display: block;
+	width: 80%;
+	height: 200vw;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	margin-top: 20%;
+	margin-bottom: 15vh;
+
+}
+.button p{
+	display: none;
+}
+.contents a{
+	width: 23%;
+	height: fit-content;
+	margin: 4% 1%;
+	float: left;
+	position: relative;
+}
+.contents img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 999;
+}
+.contents a span{
+	width: 100%;
+	height: 100%;
+	font-size: 2.5rem;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	position: absolute;
+	top: 45%;
+	
+}
+.contents a span p{
+	text-align: center;
+}
+.contents img:hover{
+	opacity: 30%;
+}
+.contents .box{
+	background-color: black;
+}
+.contents a:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+	width: 100%;
+	height: 500px;
+	border-top: 1px solid rgb(55, 54, 51);
+}
+footer .flogo{
+	font-size: 7rem;
+	font-weight: 700;
+	color: solid rgb(55, 54, 51);
+	margin-top: 10vh;
+	margin-left: 8vw;
+}
+.inner{
+	display: flex;
+	margin-top: 20vh;
+	justify-content: space-between;
+}
+footer .inner1 {
+	display: flex;
+	margin-left: 8vw;
+	margin-right: 2vw;
+}
+footer .inner1 p{
+	font-size: 2rem;
+	font-weight: 700;
+	margin-right: 2vw;
+}
+footer .inner2{
+	margin-right: 8vw;
+}
+footer .inner2 a{
+	margin-left: 2vw;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+
+
+@media screen and (min-width:1024px)and (max-width:1200px){
+
+	html{
+        font-size: 15px;
+	}
+	header .logo{
+		font-size: 3rem;
+	}
+	header ul li a{
+		font-size: 2.5rem;
+		color: rgb(55, 54, 51);
+	}
+	footer{
+		width: 100%;
+		height: 35vh;
+		border-top: 1px solid rgb(55, 54, 51);
+	}
+	footer .flogo{
+		font-weight: 700;
+		color: solid rgb(55, 54, 51);
+		margin-top: 7vh;
+		margin-left: 8vw;
+	}
+	.inner{
+		display: flex;
+		margin-top: 11vh;
+		justify-content: space-between;
+	}
+	footer .inner1 {
+		display: flex;
+		margin-left: 8vw;
+		margin-right: 2vw;
+		margin-bottom: 2vh;
+	}
+	footer .inner1 p{
+		font-weight: 700;
+		margin-right: 2vw;
+	}
+	footer .inner2{
+		display: flex;
+		margin-left: 8vw;
+		margin-right: 2vw;
+	}
+	footer .inner2 a{
+		font-weight: 700;
+		margin-right: 2vw;
+		margin-left: 0;
+	}
+	
+}
+@media screen and (min-width:767px)and (max-width:1023px){
+	header .logo{
+		font-size: 2.6rem;
+	}
+	header ul li a{
+		font-size: 2.2rem;
+		color: rgb(55, 54, 51);
+	}
+
+	footer{
+		width: 100%;
+		height: 40vh;
+		border-top: 1px solid rgb(55, 54, 51);
+	}
+	footer .flogo{
+		font-size: 4.5rem;
+		font-weight: 700;
+		margin-top: 8vh;
+		margin-left: 8vw;
+	}
+	.inner{
+		display: block;
+		margin-top: 12vh;
+		justify-content: space-between;
+		
+	}
+	footer .inner1 {
+		display: flex;
+		margin-left: 8vw;
+		margin-right: 2vw;
+		margin-bottom: 3vh;
+	}
+	footer .inner1 p{
+		font-weight: 700;
+		margin-right: 2vw;
+		font-size: 1.6rem;
+	}
+	footer .inner2{
+		display: flex;
+		margin-left: 8vw;
+	}
+	footer .inner2 a{
+		margin-left: 0;
+		margin-right: 2vw;
+		font-weight: 700;
+		font-size: 1.6rem;
+	}
+	
+}
+@media screen and (min-width:540px)and (max-width:766px){
+    html{
+        font-size: 11px;
+	}
+	header .logo{
+		font-size: 2rem;
+	}
+	header ul li a{
+		font-size: 1.7rem;
+		color: rgb(55, 54, 51);
+	}
+	footer{
+		width: 100%;
+		height: 30vh;
+		border-top: 1px solid rgb(55, 54, 51);
+	}
+	footer .flogo{
+		font-size: 3.8rem;
+		font-weight: 700;
+		color: solid rgb(55, 54, 51);
+		margin-top: 5vh;
+		margin-left: 8vw;
+	}
+	.inner{
+		display: block;
+		margin-top: 10vh;
+		justify-content: space-between;
+	}
+	footer .inner1 {
+		display: block;
+		margin-left: 8vw;
+		margin-right: 2vw;
+		margin-bottom: 3vh;
+	}
+	footer .inner1 p{
+		font-size: 1.1rem;
+		font-weight: 700;
+		margin-right: 2vw;
+	}
+	footer .inner2{
+		display: flex;
+		margin-left: 8vw;
+	}
+	footer .inner2 a{
+		font-size: 1.2rem;
+		margin-left: 0;
+		margin-right: 2vw;
+		font-weight: 700;
+	}
+}
+@media screen and (min-width:539px){
+	html{
+		font-size: 10px;
+	}
+	
+	footer{
+		width: 100%;
+		height: 30vh;
+		border-top: 1px solid rgb(55, 54, 51);
+	}
+	footer .flogo{
+		font-size: 3.8rem;
+		font-weight: 700;
+		color: solid rgb(55, 54, 51);
+		margin-top: 5vh;
+		margin-left: 8vw;
+	}
+	.inner{
+		display: block;
+		margin-top: 10vh;
+		justify-content: space-between;
+	}
+	footer .inner1 {
+		display: flex;
+		margin-left: 8vw;
+		margin-right: 2vw;
+		margin-bottom: 3vh;
+	}
+	footer .inner1 p{
+		font-size: 1.1rem;
+		font-weight: 700;
+		margin-right: 2vw;
+	}
+	footer .inner2{
+		display: flex;
+		margin-left: 8vw;
+	}
+	footer .inner2 a{
+		font-size: 1.2rem;
+		margin-left: 0;
+		margin-right: 2vw;
+		font-weight: 700;
+	}
+	
+}
+@media screen and (min-width:400px){
+	html{
+		font-size: 10px;
+	}
+	footer{
+		width: 100%;
+		height: 30vh;
+		border-top: 1px solid rgb(55, 54, 51);
+	}
+	footer .flogo{
+		font-size: 2rem;
+		font-weight: 500;
+		color: solid rgb(55, 54, 51);
+		margin-top: 5vh;
+		margin-left: 8vw;
+	}
+	.inner{
+		display: block;
+		margin-top: 10vh;
+		justify-content: space-between;
+	}
+	footer .inner1 {
+		display: flex;
+		margin-left: 8vw;
+		margin-right: 2vw;
+		margin-bottom: 3vh;
+	}
+	footer .inner1 p{
+		font-size: 1rem;
+		font-weight: 700;
+		margin-right: 2vw;
+	}
+	footer .inner2{
+		display: flex;
+		margin-left: 8vw;
+	}
+	footer .inner2 a{
+		font-size: 1.2rem;
+		margin-left: 0;
+		margin-right: 2vw;
+		font-weight: 700;
+	}
+	
+}
