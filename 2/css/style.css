@@ -300,9 +300,11 @@ header ul li a{
 	margin: 0 auto;
 	margin-bottom: 20vh;
 }
+
 .contents6 video{
 	width: 38vw;
-	height: fit-content;
+	height: 40vh;
+	background-color: black;
 }
 .contents6 h4{
 	font-size: 2.5rem;
