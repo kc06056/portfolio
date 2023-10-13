@@ -147,9 +147,13 @@ table {
     font-weight: 700;
     color: white;
    }
-   nav .mainmenu li:hover{
+    nav .mainmenu li:hover a{
+    width: 10vw;
+    height: 60px;
+    display: block;
     background-color: #ffffff;
     border: 2px solid #111266;
+    color: #111266;
    }
    nav .mainmenu li a:hover{
     color: #111266;
