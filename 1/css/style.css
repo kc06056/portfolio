@@ -466,8 +466,8 @@ width: 510px;
     height: 40px;
     display: block;
     position: absolute;
-    right: 9%;
-    margin-top: 1.2%;
+    right: 8%;
+    margin-top: 1.6%;
   }
   .closebar{
     width: 50px;
@@ -668,12 +668,12 @@ footer #flogo{
     margin-top: 2.3%;
   }
   .closebar{
-    width: 30px;
+    width: 35px;
     height: 38px;
    display: none;
     position: absolute;
     right: 9%;
-    padding-top: 1.8%;
+    padding-top: 2%;
     z-index: 999;
   }
   .hambar a{
