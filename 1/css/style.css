@@ -55,16 +55,45 @@ header ul{
  height: 100%;
  margin-right: 5vw;
  margin-bottom: 0;
+ /* margin-left: 55%; */
  display: flex;
  align-items: center;
 }
+.hambar{
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+.hambar a{
+  width: 100%;
+  height: 100%;
+}
+.hambar a img{
+  width: 100%;
+  height: 100%;  
+}
+
+.closebar{
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+.closebar a{
+  width: 100%;
+  height: 100%;
+}
+.closebar a img{
+  width: 100%;
+  height: 100%;  
+}
 header ul li{
-    margin: 0 20px;
+  margin: 0px 20px;
 }
 header ul li a{
   color: rgb(77, 77, 77);
   font-size: 17px;
 }
+
 .sbaner{
   margin-top: 80px;
   width: 100%;
@@ -402,9 +431,61 @@ width: 510px;
   }
 
 @media screen and (min-width:576px) and (max-width:767px){
+  header{
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    padding-top: 1.2%;
+  }
+  header .logo a{
+    margin-left: 22px;
+  }
   header ul{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
     display: none;
   }
+  header ul li{
+    width: 100%;
+    background-color: #2d2d2d;
+    text-align: center;
+    padding: 2% 0%;
+    margin: 0;
+  }
+  header ul li:hover{
+    background-color: black;
+  }
+  header ul li:hover a{
+    color: aliceblue;
+  }
+  .hambar{
+    width: 50px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 9%;
+    margin-top: 1.2%;
+  }
+  .closebar{
+    width: 50px;
+    height: 50px;
+   display: none;
+    position: absolute;
+    right: 9%;
+    padding-top: 0.4%;
+    z-index: 999;
+  }
+  .hambar a{
+    width: 100%;
+    height: 100%;
+  }
+  /* header ul{
+    display: none;
+  } */
+ 
   .container h3{
   margin-top: 150px;
   }
@@ -446,7 +527,57 @@ width: 510px;
 }
 
 @media screen and (min-width:395px) and (max-width:575px){
-
+  header{
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    padding-top: 1.2%;
+  }
+  header .logo a{
+    margin-left: 22px;
+  }
+  header ul{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+    display: none;
+  }
+  header ul li{
+    width: 100%;
+    background-color: #2d2d2d;
+    text-align: center;
+    padding: 2% 0%;
+    margin: 0;
+  }
+  header ul li:hover{
+    background-color: black;
+  }
+  header ul li:hover a{
+    color: aliceblue;
+  }
+  .hambar{
+    width: 50px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 9%;
+    margin-top: 2%;
+  }
+  .closebar{
+    width: 50px;
+    height: 50px;
+   display: none;
+    position: absolute;
+    right: 9%;
+    padding-top: 0.4%;
+    z-index: 999;
+  }
+  .hambar a{
+    width: 100%;
+    height: 100%;
+  }
 header ul{
   display: none;
 }
@@ -494,13 +625,61 @@ footer #flogo{
 @media screen and (max-width:394px){
   header{
     width: 100%;
-    height: 70px;
+    height: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    padding-top: 1.2%;
+  }
+  header .logo a{
+    margin-left: 22px;
+  }
+  header ul{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+    display: none;
+  }
+  header ul li{
+    width: 100%;
+    background-color: #2d2d2d;
+    text-align: center;
+    padding: 2% 0%;
+    margin: 0;
+  }
+  header ul li:hover{
+    background-color: black;
+  }
+  header ul li:hover a{
+    color: aliceblue;
+  }
+  .hambar{
+    width: 40px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    right: 9%;
+    margin-top: 2%;
+  }
+  .closebar{
+    width: 35px;
+    height: 38px;
+   display: none;
+    position: absolute;
+    right: 9%;
+    padding-top: 2%;
+    z-index: 999;
+  }
+  .hambar a{
+    width: 100%;
+    height: 100%;
   }
   header .logo a{
     font-size: 40px;
   }
   .sbaner{
-    margin-top: 70px;
+    margin-top: 60px;
   }
   .title{
     margin-left: 4vw;
