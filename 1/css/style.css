@@ -439,7 +439,7 @@ width: 510px;
     padding-top: 1.2%;
   }
   header .logo a{
-    margin-left: 22px;
+    margin-left: 18px;
   }
   header ul{
     flex-direction: column;
@@ -536,7 +536,7 @@ width: 510px;
   }
 
   header .logo a{
-    margin-left: 12px;
+    margin-left: 10px;
   }
   header ul{
     flex-direction: column;
@@ -564,7 +564,7 @@ width: 510px;
     height: 40px;
     display: block;
     position: absolute;
-    right: 8%;
+    right: 12%;
     margin-top: 2%;
   }
   .closebar{
