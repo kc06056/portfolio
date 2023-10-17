@@ -668,12 +668,12 @@ footer #flogo{
     margin-top: 2.3%;
   }
   .closebar{
-    width: 35px;
+    width: 30px;
     height: 38px;
    display: none;
     position: absolute;
     right: 9%;
-    padding-top: 2%;
+    padding-top: 1.8%;
     z-index: 999;
   }
   .hambar a{
