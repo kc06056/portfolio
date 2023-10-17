@@ -631,6 +631,9 @@ footer #flogo{
     font-size: 20px;
     padding-top: 1.2%;
   }
+  header .logo{
+    margin: 0;
+  }
   header .logo a{
     margin-left: 22px;
   }
@@ -659,7 +662,7 @@ footer #flogo{
     height: 30px;
     display: block;
     position: absolute;
-    right: 9%;
+    right: 5%;
     margin-top: 2%;
   }
   .closebar{
