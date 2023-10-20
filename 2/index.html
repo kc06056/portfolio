@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <script src="./script/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="./script/script.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
@@ -189,32 +189,42 @@
         </div>
     </footer>
     <script>
+        gsap.registerPlugin(ScrollTrigger);
 
-gsap.to('.contents1 img', {
-  x: 300, 
-  scrollTrigger: {
+ScrollTrigger.saveStyles(".mobile, .desktop");
+ScrollTrigger.matchMedia({
+
+"(min-width: 1800px)": function() {
+    gsap.to('.contents1 img', {
+  x: 650, 
+  scrollTrigger:{
     trigger: '.contents1 img',
     start: 'top center',
-    end: '150px center',
+    end: '900px center',
     scrub: true,
     // markers: true,
     id: "1st"
     
   }
 });
-
+},
+"(min-width: 900px)": function() {
 gsap.to('.contents1 img', {
-  x: 650, 
-  immediateRender: false,
-  scrollTrigger: {
+  x: 350, 
+  scrollTrigger:{
     trigger: '.contents1 img',
-    start: '250px center',
-    end: '400px center',
+    start: 'top center',
+    end: '300px center',
     scrub: true,
     // markers: true,
-    id: "2nd"
+    id: "1st"
   }
 });
+
+}
+});
+
+
         </script> 
 
 </body>
