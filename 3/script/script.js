@@ -1,10 +1,5 @@
 $(function(){
 
-    //  $(".etcmain>li").click(function(){
-    //  $(".etcsub").stop(true).show();
-       
-    //    })
-
 
         
  $(".mainmenu").on({
