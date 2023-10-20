@@ -179,6 +179,7 @@ table {
     background-color: #ffffff;
     left: 0;
     color: black;
+     z-index: 2;
    }
    .submenu>li:hover{
     color: #111266;
