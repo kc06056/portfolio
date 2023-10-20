@@ -71,7 +71,7 @@ header{
 	margin: 0 auto;
 }
 header .logo{
-	font-size: 4.4rem;
+	font-size: 2.2rem;
 }
 header .logo a{
 	color: rgb(55, 54, 51);
@@ -87,7 +87,7 @@ header ul li{
 	margin: 0 1vw;
 }
 header ul li a{
-	font-size: 3.4rem;
+	font-size: 1.7rem;
 	color: rgb(55, 54, 51);
 }
 
@@ -119,8 +119,8 @@ header ul li a{
 }
 .contents a span{
 	width: 100%;
-	height: 100%;
-	font-size: 2.5rem;
+	height: 50%;
+	font-size: 1.5rem;
 	text-align: center;
 	color: white;
 	font-weight: 700;
@@ -147,7 +147,7 @@ footer{
 	border-top: 1px solid rgb(55, 54, 51);
 }
 footer .flogo{
-	font-size: 7rem;
+	font-size: 3.5rem;
 	font-weight: 700;
 	color: solid rgb(55, 54, 51);
 	margin-top: 10vh;
@@ -164,7 +164,7 @@ footer .inner1 {
 	margin-right: 2vw;
 }
 footer .inner1 p{
-	font-size: 2rem;
+	font-size: 1.1rem;
 	font-weight: 700;
 	margin-right: 2vw;
 }
@@ -173,7 +173,7 @@ footer .inner2{
 }
 footer .inner2 a{
 	margin-left: 2vw;
-	font-size: 2rem;
+	font-size: 1.1rem;
 	font-weight: 700;
 }
 
@@ -184,14 +184,12 @@ footer .inner2 a{
 	html{
         font-size: 15px;
 	}
-	header .logo{
-		font-size: 3rem;
-	}
-	header ul li a{
-		font-size: 2.5rem;
-		color: rgb(55, 54, 51);
+	
+	.contents{
+		height: 180vw;
 	}
 	footer{
+
 		width: 100%;
 		height: 35vh;
 		border-top: 1px solid rgb(55, 54, 51);
@@ -203,7 +201,7 @@ footer .inner2 a{
 		margin-left: 8vw;
 	}
 	.inner{
-		display: flex;
+		display: block;
 		margin-top: 11vh;
 		justify-content: space-between;
 	}
@@ -220,7 +218,7 @@ footer .inner2 a{
 	footer .inner2{
 		display: flex;
 		margin-left: 8vw;
-		margin-right: 2vw;
+		margin-right: 8vw;
 	}
 	footer .inner2 a{
 		font-weight: 700;
@@ -229,22 +227,21 @@ footer .inner2 a{
 	}
 	
 }
+
 @media screen and (min-width:767px)and (max-width:1023px){
-	header .logo{
-		font-size: 2.6rem;
+	html{
+		font-size: 13px;
 	}
 	header ul li a{
-		font-size: 2.2rem;
+		margin: 1vw;
 		color: rgb(55, 54, 51);
 	}
-
 	footer{
 		width: 100%;
 		height: 40vh;
 		border-top: 1px solid rgb(55, 54, 51);
 	}
 	footer .flogo{
-		font-size: 4.5rem;
 		font-weight: 700;
 		margin-top: 8vh;
 		margin-left: 8vw;
@@ -253,7 +250,6 @@ footer .inner2 a{
 		display: block;
 		margin-top: 12vh;
 		justify-content: space-between;
-		
 	}
 	footer .inner1 {
 		display: flex;
@@ -264,7 +260,6 @@ footer .inner2 a{
 	footer .inner1 p{
 		font-weight: 700;
 		margin-right: 2vw;
-		font-size: 1.6rem;
 	}
 	footer .inner2{
 		display: flex;
@@ -274,64 +269,20 @@ footer .inner2 a{
 		margin-left: 0;
 		margin-right: 2vw;
 		font-weight: 700;
-		font-size: 1.6rem;
 	}
 	
+	
 }
+
 @media screen and (min-width:540px)and (max-width:766px){
     html{
-        font-size: 11px;
-	}
-	header .logo{
-		font-size: 2rem;
+        font-size: 10px;
 	}
 	header ul li a{
-		font-size: 1.7rem;
+
+		margin: 1vw;
 		color: rgb(55, 54, 51);
 	}
-	footer{
-		width: 100%;
-		height: 30vh;
-		border-top: 1px solid rgb(55, 54, 51);
-	}
-	footer .flogo{
-		font-size: 3.8rem;
-		font-weight: 700;
-		color: solid rgb(55, 54, 51);
-		margin-top: 5vh;
-		margin-left: 8vw;
-	}
-	.inner{
-		display: block;
-		margin-top: 10vh;
-		justify-content: space-between;
-	}
-	footer .inner1 {
-		display: block;
-		margin-left: 8vw;
-		margin-right: 2vw;
-		margin-bottom: 3vh;
-	}
-	footer .inner1 p{
-		font-size: 1.1rem;
-		font-weight: 700;
-		margin-right: 2vw;
-	}
-	footer .inner2{
-		display: flex;
-		margin-left: 8vw;
-	}
-	footer .inner2 a{
-		font-size: 1.2rem;
-		margin-left: 0;
-		margin-right: 2vw;
-		font-weight: 700;
-	}
-}
-@media screen and (min-width:539px){
-	html{
-		font-size: 10px;
-	}
 	
 	footer{
 		width: 100%;
@@ -339,52 +290,7 @@ footer .inner2 a{
 		border-top: 1px solid rgb(55, 54, 51);
 	}
 	footer .flogo{
-		font-size: 3.8rem;
 		font-weight: 700;
-		color: solid rgb(55, 54, 51);
-		margin-top: 5vh;
-		margin-left: 8vw;
-	}
-	.inner{
-		display: block;
-		margin-top: 10vh;
-		justify-content: space-between;
-	}
-	footer .inner1 {
-		display: flex;
-		margin-left: 8vw;
-		margin-right: 2vw;
-		margin-bottom: 3vh;
-	}
-	footer .inner1 p{
-		font-size: 1.1rem;
-		font-weight: 700;
-		margin-right: 2vw;
-	}
-	footer .inner2{
-		display: flex;
-		margin-left: 8vw;
-	}
-	footer .inner2 a{
-		font-size: 1.2rem;
-		margin-left: 0;
-		margin-right: 2vw;
-		font-weight: 700;
-	}
-	
-}
-@media screen and (min-width:400px){
-	html{
-		font-size: 10px;
-	}
-	footer{
-		width: 100%;
-		height: 30vh;
-		border-top: 1px solid rgb(55, 54, 51);
-	}
-	footer .flogo{
-		font-size: 2rem;
-		font-weight: 500;
 		color: solid rgb(55, 54, 51);
 		margin-top: 5vh;
 		margin-left: 8vw;
@@ -410,10 +316,155 @@ footer .inner2 a{
 		margin-left: 8vw;
 	}
 	footer .inner2 a{
-		font-size: 1.2rem;
 		margin-left: 0;
 		margin-right: 2vw;
 		font-weight: 700;
 	}
 	
 }
+
+@media screen and (max-width:539px){
+	html{
+		font-size: 10px;
+	}
+	header .logo{
+		font-size: 1.7rem;
+	}
+	header ul li a{
+		font-size: 1.5rem;
+		margin: 1vw;
+		color: rgb(55, 54, 51);
+	}
+	.contents{
+		display: block;
+		width: 85%;
+		height: 750vw;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		margin-top: 20%;
+		margin-bottom: 15vh;
+	
+	}
+	.button p{
+		display: none;
+	}
+	.contents a{
+		width: 48%;
+		height: fit-content;
+		margin: 4% 1%;
+		float: left;
+		position: relative;
+	}
+
+	footer{
+		width: 100%;
+		height: 30vh;
+		border-top: 1px solid rgb(55, 54, 51);
+	}
+	footer .flogo{
+		font-weight: 700;
+		color: solid rgb(55, 54, 51);
+		margin-top: 5vh;
+		margin-left: 8vw;
+	}
+	.inner{
+		display: block;
+		margin-top: 10vh;
+		justify-content: space-between;
+	}
+	footer .inner1 {
+		display: flex;
+		margin-left: 8vw;
+		margin-right: 2vw;
+		margin-bottom: 2vh;
+	}
+	footer .inner1 p{
+		font-size: 1rem;
+		font-weight: 700;
+		margin-right: 2vw;
+	}
+	footer .inner2{
+		display: flex;
+		margin-left: 8vw;
+	}
+	footer .inner2 a{
+		margin-left: 0;
+		margin-right: 2vw;
+		font-weight: 700;
+	}
+	
+}
+
+@media screen and (max-width:400px){
+	html{
+		font-size: 10px;
+	}
+	header .logo{
+		font-size: 1.7rem;
+	}
+	header ul li a{
+		font-size: 1.5rem;
+		margin: 1vw;
+		color: rgb(55, 54, 51);
+	}
+	
+	.contents{
+		display: block;
+		width: 85%;
+		height: 750vw;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		margin-top: 20%;
+		margin-bottom: 15vh;
+	
+	}
+	.button p{
+		display: none;
+	}
+	.contents a{
+		width: 48%;
+		height: fit-content;
+		margin: 4% 1%;
+		float: left;
+		position: relative;
+	}
+
+
+
+	footer{
+		width: 100%;
+		height: 30vh;
+		border-top: 1px solid rgb(55, 54, 51);
+	}
+	footer .flogo{
+		font-weight: 700;
+		color: solid rgb(55, 54, 51);
+		margin-top: 5vh;
+		margin-left: 8vw;
+	}
+	.inner{
+		display: block;
+		margin-top: 10vh;
+		justify-content: space-between;
+	}
+	footer .inner1 {
+		display: flex;
+		margin-left: 8vw;
+		margin-right: 2vw;
+		margin-bottom: 2vh;
+	}
+	footer .inner1 p{
+		font-size: 1rem;
+		font-weight: 700;
+		margin-right: 2vw;
+	}
+	footer .inner2{
+		display: flex;
+		margin-left: 8vw;
+	}
+	footer .inner2 a{
+		margin-left: 0;
+		margin-right: 2vw;
+		font-weight: 700;
+	}
+}   */
