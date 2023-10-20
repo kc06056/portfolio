@@ -9,10 +9,10 @@ $(function(){
         
  $(".mainmenu").on({
   mouseenter:function(){
-   $(".submenu").stop(true).show('slow');
+   $(".submenu").stop(true).show();
   },
   mouseleave:function(){
-   $(".submenu").stop(true).hide('slow');
+   $(".submenu").stop(true).hide();
   }
  });
 
