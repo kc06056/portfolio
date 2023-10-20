@@ -129,10 +129,10 @@ table {
     font-size: 2rem;
     line-height: 50px;
     text-align: center;
-    z-index: 999;
+    
    }
    nav .mainmenu{
-    width: 10vw;
+    width: 10.2vw;
     height: 6.3vh;
     background-color: #111266;
     color: rgb(255, 255, 255);
@@ -141,15 +141,24 @@ table {
     color: white;
    }
    nav .mainmenu>li{
+   
     width: 10vw;
-    height: 60px;
+    height: 6vh;
     line-height: 60px;
     font-weight: 700;
     color: white;
    }
-    nav .mainmenu li:hover a{
+   nav .mainmenu>li:hover a{
     width: 10vw;
-    height: 60px;
+    height: 6.2vh;
+    display: block;
+    background-color: #ffffff;
+    border: 2px solid #111266;
+    color: #111266;
+   }
+   nav .submenu>li:hover a{
+    width: 10vw;
+    height: 5.8vh;
     display: block;
     background-color: #ffffff;
     border: 2px solid #111266;
@@ -161,7 +170,8 @@ table {
    .submenu{
     width: 10vw;
     height: 32vh;
-    border: 2px solid #e9e9e9;
+    border: 1px solid #e9e9e9;
+    margin-top: 1%;
     display: none;
    }
    .submenu>li{
@@ -180,7 +190,7 @@ table {
     top: 15vh;
     left: 0;
     width: 100%;
-    height: 34.2vh;
+    height: 34.3vh;
     background-color: rgb(255, 255, 255);
     z-index: -1;
    }
