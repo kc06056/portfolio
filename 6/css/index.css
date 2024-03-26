@@ -1647,7 +1647,7 @@ height: auto;
   
    /* 두번째제품 */
     .sec2{
-     height: 70vh;
+     height: 80vh;
      margin-top: 25%;
     }
     .sec2 .txt{
@@ -1665,7 +1665,7 @@ height: auto;
     }
   .swiper-container1  img{
     width: 100%;
-    height: auto;
+    height: 50vh;
     }
      /* 세번째제품 */
      .sec3{
@@ -1682,7 +1682,7 @@ height: auto;
       }
       .swiper-container2 img{
         width: 100%;
-        height: auto;
+        height: 70vh;
         margin-top: 40%;
       }
       .swiper-container2 .swiper-slide:first-child{
