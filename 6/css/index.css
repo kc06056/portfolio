@@ -1668,9 +1668,7 @@ height: auto;
     height: 32vh;
     }
      /* 세번째제품 */
-     .sec3{
-       height: 75vh;
-      }
+  
        /* 스와이퍼 슬라이드2 */
        .swiper-container2 .swiper-slide {
         width: 60%; 
