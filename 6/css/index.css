@@ -843,6 +843,7 @@ footer {
   }
   .sec1 img{
     width: 100%;
+    height: auto;
   }
    .txt{
     font-size: 3.2rem;
@@ -868,7 +869,7 @@ footer {
  
 .swiper-container1  img{
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
     /* 세번째제품 */
     .swiper-container2 .swiper-slide {
@@ -880,7 +881,7 @@ footer {
     }
     .swiper-container2 img{
       width: 100%;
-      height: fit-content;
+      height: auto;
     }
     .swiper-container2 .swiper-slide:first-child{
       width: 65%; 
@@ -1101,6 +1102,7 @@ footer {
   }
   .sec1 img{
     width: 100%;
+    height: auto;
   }
    .txt{
     font-size: 3.2rem;
@@ -1120,7 +1122,7 @@ footer {
 }
 .swiper-container1  img{
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
   
     /* 세번째제품 */
@@ -1134,7 +1136,7 @@ footer {
     }
     .swiper-container2 img{
       width: 100%;
-      height: fit-content;
+      height: auto;  
       margin-top: 40%;
     }
    
@@ -1312,9 +1314,6 @@ footer {
        font-size: 1.4rem;
      }
  
- 
- 
-  
      nav .submenu::after {
       display: none;
     }
@@ -1408,7 +1407,7 @@ footer {
 }
 .swiper-container1  img{
 width: 100%;
-height: fit-content;
+height: auto;
 }
     
       /* 세번째제품 */
@@ -1422,7 +1421,7 @@ height: fit-content;
       }
       .swiper-container2 img{
         width: 100%;
-        height: fit-content;
+        height: auto;
         margin-top: 40%;
       }
      
@@ -1637,9 +1636,7 @@ height: fit-content;
     .txt{
      font-size: 3rem;
      line-height: 4rem;
-   
     }
-   
     .inner_txt{
      font-size: 1.4rem;
      line-height: 2.2rem;
@@ -1650,7 +1647,7 @@ height: fit-content;
   
    /* 두번째제품 */
     .sec2{
-     height: 50vh;
+     height: 70vh;
      margin-top: 25%;
     }
     .sec2 .txt{
@@ -1663,11 +1660,12 @@ height: fit-content;
    }
    .swiper-container1 .swiper-slide {
     width: 45%; 
+    height: fit-content;
     margin-bottom: 10%;
     }
   .swiper-container1  img{
     width: 100%;
-    height: fit-content;
+    height: auto;
     }
      /* 세번째제품 */
      .sec3{
@@ -1684,7 +1682,7 @@ height: fit-content;
       }
       .swiper-container2 img{
         width: 100%;
-        height: fit-content;
+        height: auto;
         margin-top: 40%;
       }
       .swiper-container2 .swiper-slide:first-child{
