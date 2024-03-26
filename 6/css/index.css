@@ -1647,7 +1647,7 @@ height: auto;
   
    /* 두번째제품 */
     .sec2{
-     height: 65vh;
+     height: 100%;
      margin-top: 25%;
     }
     .sec2 .txt{
